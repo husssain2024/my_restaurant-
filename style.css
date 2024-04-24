@@ -1,0 +1,72 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the wireframe */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Edwardian Script ITC', cursive; 
+    font-style: italic; 
+    color: gold; 
+    font-size: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Styles for the menu section */
+.menu-list {
+    list-style-type: none;
+}
+
+.menu-list li {
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+
+.menu-list li img {
+    width: 100px;
+    margin-left: 10px; 
+}
+
+.menu-list li p {
+    text-align: center;
+}
+
+/* Styles for the contact section */
+#contact p {
+    margin-bottom: 5px;
+}
